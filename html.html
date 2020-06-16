@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<img src="bonusExtraLife.png" id="img">
+	<div class="information">
+		<button id="informationButton">About version</button>
+		<div class="informationBlock">
+			<div class="versionAndDate">
+				<p class="version">v0.2</p>
+				<p class="date">30.03.2020</p>
+			</div>
+			<div class="list">
+				<ul>
+					<caption>Что нового:</caption>
+					<li>Улучшено столкновение мяча с блоком сбоку.</li>
+					<li>Добавленно 4 бонуса:<br>1. Дополнительная жизнь.<br>2. Смерть.<br>3. Случайное изменение траектории.<br>4. Увеличение платформы.</li>
+				</ul>
+			</div>
+			<hr>
+
+
+			<div class="versionAndDate">
+				<p class="version">v0.1</p>
+				<p class="date">23.03.2020</p>
+			</div>
+			<div class="list">
+				<ul>
+					<caption>Что нового:</caption>
+					<li>Добавленно взаимодействие с пользователем.</li>
+					<li>Реализован старт/рестарт игры</li>
+					<li>Создана игровая область.</li>
+					<li>Добавленны начальные объекты.</li>
+					<li>Реализована элементарная физика мяча.</li>
+					<li>Реализована физика платформы.</li>
+					<li>Реализовано появление блоков.</li>
+					<li>Реазирована (недоработанная) физика столкновения мяча и блока.</li>
+				</ul>
+			</div>
+			<hr>
+		</div>
+	</div>
+	<div id="divPortrait">
+		<p id="portrait">ПЕРЕВЕРНИТЕ ТЕЛЕФОН БОЧКОМ, пожалуйста</p>
+	</div>
+	<div id="left"></div>
+	<canvas width="500" height="400" background="gray" id="canvas1"></canvas>
+	<div id="right"></div>
+	<script type="text/javascript" src="js/version.js"></script>
+	<script type="text/javascript" src="js/bonus.js"></script>
+	<script type="text/javascript" src="js/blocks.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
